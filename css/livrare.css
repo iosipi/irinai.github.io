@@ -1,0 +1,35 @@
+.delivery-section {
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.delivery-info {
+    margin-bottom: 40px;
+    color: #9D6330;
+}
+
+.delivery-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.delivery-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.delivery-option {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px#9D6330;
+    border-radius: 8px;
+    text-align: left;
+}
